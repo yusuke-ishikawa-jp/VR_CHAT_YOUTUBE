@@ -5,24 +5,29 @@ using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour {
 
-	InputField inputField;
+	//InputField inputField;
 
   void Start() {
 
-  	inputField = GetComponent<InputField>();
-    InitInputField();
+  //	inputField = GetComponent<InputField>();
+  //  InitInputField();
   }
+
+	void Update() {
+		//Text  x = GameObject.Find("InputText").GetComponent<Text>();
+		//Debug.Log(x.text);
+	}
 
 	public void InputLogger() {
 
-    string inputValue = inputField.text;
-    Debug.Log(inputValue);
-    InitInputField();
+  //  string inputValue = inputField.text;
+  //  Debug.Log(inputValue);
+  //  InitInputField();
   }
 
   void InitInputField() {
 
-		inputField.text = "";
-		inputField.ActivateInputField();
+	//	inputField.text = "";
+	//	inputField.ActivateInputField();
   }
 }
