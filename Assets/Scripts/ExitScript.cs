@@ -20,7 +20,7 @@ public class ExitScript : MonoBehaviour {
 		UnityEditor.EditorApplication.isPlaying = false;
 
 		#else
-		Applicatin.Quit ();
+		Application.Quit ();
 
 		#endif
 	}
